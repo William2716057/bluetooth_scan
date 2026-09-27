@@ -104,3 +104,26 @@ async def main():
 asyncio.run(main())
 
 #add csv file saving features
+
+"""
+Device
+??? Advertised name
+??? Observed address
+??? Address type
+?   ??? Public
+?   ??? Random Static
+?   ??? RPA
+?   ??? NRPA
+??? Manufacturer
+??? Service UUIDs
+??? RSSI
+??? First/last observed
+"""
+
+"""
+Bleak — application-level BLE scanning
+BlueZ / bluetoothctl — Linux Bluetooth management
+btmon — Bluetooth HCI packet capture on Linux
+Wireshark — detailed BLE packet analysis
+Kismet — wireless/Bluetooth discovery and monitoring
+"""
