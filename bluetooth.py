@@ -31,8 +31,8 @@ async def main():
             print(f"  UUID: {uuid}")
             print(f"  Data: {data.hex()}")
 
-        print("\nPlatform Details:")
-        print(device.details)
+        #print("\nPlatform Details:") unnecessary noise
+        #print(device.details) 
 
 
 asyncio.run(main())
