@@ -26,7 +26,7 @@ KNOWN_COMPANIES = {
     0x03DA: "OPPO Mobile Telecommunications",
 }
 
-def lookup_company(company_id):
+def lookup_company(company_id): #in wrong place, move to results
     return KNOWN_COMPANIES.get(company_id, "Not found")
 
 def guess_device_type(name):
@@ -56,7 +56,7 @@ def guess_device_type(name):
 async def main():
     print("Scanning...\n")
 
-    devices = await BleakScanner.discover(timeout=8.0, return_adv=True)
+    devices = await BleakScanner.discover(timeout=20.0, return_adv=True)
     
 
     for address, (device, advertisement) in devices.items():
@@ -127,3 +127,5 @@ btmon - Bluetooth HCI packet capture on Linux
 Wireshark - detailed BLE packet analysis
 Kismet - wireless/Bluetooth discovery and monitoring
 """
+
+
