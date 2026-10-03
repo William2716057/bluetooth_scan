@@ -121,9 +121,9 @@ Device
 """
 
 """
-Bleak — application-level BLE scanning
-BlueZ / bluetoothctl — Linux Bluetooth management
-btmon — Bluetooth HCI packet capture on Linux
-Wireshark — detailed BLE packet analysis
-Kismet — wireless/Bluetooth discovery and monitoring
+Bleak - application-level BLE scanning
+BlueZ  bluetoothctl - Linux Bluetooth management
+btmon - Bluetooth HCI packet capture on Linux
+Wireshark - detailed BLE packet analysis
+Kismet - wireless/Bluetooth discovery and monitoring
 """
